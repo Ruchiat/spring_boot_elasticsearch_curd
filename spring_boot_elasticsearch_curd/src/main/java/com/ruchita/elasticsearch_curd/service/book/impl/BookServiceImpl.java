@@ -15,7 +15,7 @@ import com.ruchita.elasticsearch_curd.constant.ResponseStatus;
 import com.ruchita.elasticsearch_curd.dao.book.BookDao;
 import com.ruchita.elasticsearch_curd.service.book.BookService;
 import com.ruchita.elasticsearch_curd.service.common.impl.BaseServiceImpl;
-
+@Service
 @Qualifier("bookServiceImpl")
 public class BookServiceImpl extends BaseServiceImpl implements BookService {
 
